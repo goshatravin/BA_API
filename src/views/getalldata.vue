@@ -1,21 +1,17 @@
 <template>
   <div class="home">
-     <maincontent/>
+     <getalldata/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import maincontent from '../components/maincontent-comp.vue'
-
+import getalldata from '../components/getalldata-comp.vue'
 export default {
   name: 'home',
   components: {
-    maincontent,
+    getalldata
   }
 }
 </script>
 
-<style>
-
-</style>

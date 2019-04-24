@@ -1,21 +1,17 @@
 <template>
   <div class="home">
-     <maincontent/>
+     <borderocomp/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import maincontent from '../components/maincontent-comp.vue'
-
+import borderocomp from '../components/bordero-comp.vue'
 export default {
   name: 'home',
   components: {
-    maincontent,
+    borderocomp,
   }
 }
 </script>
 
-<style>
-
-</style>

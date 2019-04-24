@@ -1,21 +1,17 @@
 <template>
   <div class="home">
-     <maincontent/>
+     <setUp/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import maincontent from '../components/maincontent-comp.vue'
-
+import setUp from '../components/setUp-comp.vue'
 export default {
   name: 'home',
   components: {
-    maincontent,
+    setUp,
   }
 }
 </script>
 
-<style>
-
-</style>
